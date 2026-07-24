@@ -1,8 +1,26 @@
 aid: cleardata
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cleardata.png
 name: Cleardata
-description: 'Cleardata is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'ClearDATA is healthcare''s dedicated cloud security, compliance, and operations partner,
+  helping providers, payers, health-tech software companies, medical device makers, and life sciences
+  organizations build and run on AWS, Microsoft Azure, and Google Cloud in a HIPAA- and HITRUST-aligned
+  way. Its offering spans Cloud Security Posture Management (CSPM) with 300+ healthcare-specific
+  safeguards, Managed Detection & Response (MDR), automated Cloud Compliance, and Cloud Operations,
+  delivered through the CyberHealth platform and managed/professional services. ClearDATA is an AWS
+  Level 1 MSSP and Microsoft Gold Partner, and maps controls to HIPAA, HITRUST, SOC 2, NIST, ISO, PCI,
+  and GDPR. ClearDATA is backed by Norwest Venture Partners. This profile is maintained in the API
+  Evangelist network; ClearDATA does not publish a public developer API or portal.'
 url: https://raw.githubusercontent.com/api-evangelist/cleardata/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Unknown
+- Healthcare
+- Cloud Security
+- Compliance
+- HIPAA
+- HITRUST
+- Managed Services
+- Cybersecurity
+- Cloud
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/cleardata-trust-center.yml
+- type: Compliance
+  url: https://www.cleardata.com/security/
+- type: DomainSecurity
+  url: security/cleardata-domain-security.yml
+- type: LLMsTxt
+  url: llms/cleardata-llms.txt
+- type: Blog
+  url: https://www.cleardata.com/blog/
+- type: Support
+  url: https://www.cleardata.com/cleardata-contact-us/
+- type: PrivacyPolicy
+  url: https://www.cleardata.com/legal/privacy-policy/
+- type: TermsOfService
+  url: https://www.cleardata.com/legal/acceptable-use-policy/
 - type: Website
   url: https://cleardata.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

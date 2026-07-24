@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://www.cleardata.com/security/
+url: https://www.cleardata.com/security/
+certifications:
+- HIPAA
+- HITRUST
+- SOC 2
+- GDPR
+- NIST
+- ISO
+- PCI
+- ITIL
+evidence:
+- source: https://www.cleardata.com/security/
+  keywords:
+  - hipaa
+  - hitrust
+  - aicpa soc
+  - gdpr
+  - nist
+  - iso
+  - pci
+  - itil
